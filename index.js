@@ -30,6 +30,6 @@ app.get('/user/:id', (req, res) => {
 
 const PORT = process.env.PORT;
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`)
+app.listen(PORT, () => {
+  console.log(`Server listening on port ${PORT}`)
 }); 
